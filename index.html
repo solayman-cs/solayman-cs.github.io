@@ -17,12 +17,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  
   
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
   
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/flexslider.css">
+    <link rel="stylesheet" href="/css/services.css">
+  
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   <link rel="stylesheet" href="/css/academic.css">
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Dahun Kim">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Solayman Hossain Emon">
   <link rel="manifest" href="/index.webmanifest">
   <!-- <link rel="icon" type="image/png" href="/images/icon_hu2065e2b3e3f9ec61858579cdb7515c4d_74858_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu2065e2b3e3f9ec61858579cdb7515c4d_74858_192x192_fill_lanczos_center_2.png"> -->
@@ -312,9 +327,79 @@ Deep Learning. I want to boost up my career as a good AI(Artificial Intelligence
   </section>
 
  
-  
-  
 
+
+
+        <section id="experience" class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                        <h2>Work Experience</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="timeline-centered">
+                                <script type="text/javascript">
+                                    var timeSpan = ["May 2018 - June 2018", "May 2019 - June 2019",
+                                        "Feb 2019 - March 2019", "March 2020 - Present"
+                                    ];
+                                    var AT = ["Xavier Institute Of Management (XLRI), Jamshedpur",
+                                        "Central Coalfields Limited (CCL), Ranchi",
+                                        "Technical Head, Utthaan-2019 (Annual techno-cultural fest) at BIT Mesra",
+                                        "Girlscript Summer of Code 2020 - Participant"
+                                    ];
+                                    var internType = ["Research Intern", "Systems Department Intern", "Lead Volunteer",
+                                        "Open Source Contributor"
+                                    ];
+                                    var descriptions = [
+                                        "Meta analysis and a literature review on the topics 'Knowledge Hiding', 'Ethical Leadership', 'Ethical Culture', 'Ethical Climate' and 'Unethical Behaviour' and represented the data trend by R programming under Prof. Jatinder Kr. Jha.",
+                                        "Project on developing a fully working dynamic eCommerce website using PHP and MySQL.",
+                                        "Volunteered as the Technical Head in annual Techno-Cultural fest Utthaan '19 organised in Birla Institute Of Technology, Mesra. My responsibilities were to organise various technical events such as Coding competitions, Robotic wars etc. through a span of three day fest (16.03.2019-18.03.2019).",
+                                        "Open source contribution to the project 'Algo Ds Notes'. Contributed the implementation of various algorithms like Tower of Hanoi, Egg Dropping Puzzle, Minesweeper Game in programming languages like PHP, C# etc."
+                                    ];
+                                    var iclass = ["desktop", "code", "user", "globe"];
+                                    var color = [5, 1, 2];
+                                    for (let i = 0; i < AT.length; i++) {
+                                        var dir = (i % 2 == 0) ? "Right" : "Left";
+                                        document.write(
+                                            '<article class="timeline-entry animate-box" data-animate-effect="fadeIn' +
+                                            dir + '">\
+										<div class="timeline-entry-inner">\
+											<div class="timeline-icon color-' + color[i] + '">\
+												<i class="fa fa-' + iclass[i] + '"></i>\
+											</div>\
+											<div class="timeline-label">\
+												<h2><a href="#">' + AT[i] + '</a> <span>' + timeSpan[i] + '</span></h2>\
+												<p><strong><a href="#">' + internType[i] + '</a></strong>\
+													<br> ' + descriptions[i] + '</p>\
+												<p></p>\
+											</div>\
+										</div>\
+									</article>');
+                                    }
+
+                                </script>
+                                <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                    <div class="timeline-entry-inner">
+                                        <div class="timeline-icon color-3">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+        </section>
+
+
+
+  
+  
+<!--
 <section id="experience" class="home-section wg-blank   " style="padding: 10px 0 10px 0;" >
 <div class="container">
 
@@ -322,6 +407,8 @@ Deep Learning. I want to boost up my career as a good AI(Artificial Intelligence
     <div class="col-lg-12">
     <h1>Experience</h1>
       <!-- <h3 id="experience">Research Experiences</h3> -->
+	  
+<!--	  
 <ul>
  <li> <div style="float:left"><b>Freelancer </b></div><div style="float:right">Jun 2019 - Sep 2019</div> <br>
     Freelancer.com
@@ -336,6 +423,9 @@ Deep Learning. I want to boost up my career as a good AI(Artificial Intelligence
 </div>
     </div>
   </section>
+ --> 
+  
+
 
   <section id="projects" class="home-section wg-papers   " style="padding: 20px 0 20px 0;" >
     <div class="container">
@@ -443,7 +533,29 @@ Deep Learning. I want to boost up my career as a good AI(Artificial Intelligence
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
 
+     
+	<!--Extra Added--> 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+
+
     <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+	
+	<!--Extra Added-->
+	<script src="/js/jquery.easing.1.3.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/jquery.flexslider-min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/jquery.countTo.js"></script>
+    <script src="/js/services.js"></script>
+    <script src="/js/modernizr-2.6.2.min.js"></script>
+    <script src="/js/script.js"></script>
 
 
   
