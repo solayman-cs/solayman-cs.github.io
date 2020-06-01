@@ -66,6 +66,15 @@ i {
   font-size: 40px;
   margin: 0 0 15px 0;
 }
+
+
+#effect{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: candal;
+	transform: translateY(300%);
+}
+
 .panel {
   font-family: 'Indie Flower', cursive;
   width:100%;

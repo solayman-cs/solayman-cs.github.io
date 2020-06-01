@@ -220,6 +220,22 @@
 <br>
 
 <h3>Thanks for reaching out!</h3> <br>
+<div id="effect"></div>
+<script>
+  var x = 0;
+  var textEffect = "Thanks for reaching out!";
+  var container = document.getElementById('effect');
+  
+  function animate(){
+    if(x < textEffect.length){
+	   counter.innerHTML += textEffect.charAt(x);
+	   x++;
+	   setTimeout(animate, 80);
+	}
+  }
+  animate();
+</script>
+
 <p style="text-align:justify">
 My name is Solayman Hossain Emon. Currently, I’m pursuing my Bachelor of Science(B.Sc) Degree in Computer Science & Engineering (CSE) from  <a href="http://aust.edu/index.htm" target="_blank" rel="noopener">Ahsanullah University of Science and Technology (AUST)</a>, Dhaka, Bangladesh. Passionate in research works based on
 Deep Learning. I want to boost up my career as a good AI(Artificial Intelligence) researcher. For additional information, please see my <a href="cv/emon_cv_2020May.pdf" target="_blank" rel="noopener">CV</a> [Last Updated on May, 2020]
