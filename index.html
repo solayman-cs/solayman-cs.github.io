@@ -215,19 +215,19 @@
     </div>
   </div>
   <div class="col-12 col-lg-8">
-
     
 <br>
 
 <div class="caption">
-  <span style="font-size:25px; font-weight:bold" class="text" id='str'>Thanks for reaching out!</span>
-  <span class="type-cursor">|</span>
+  <span style="font-size:25px; font-weight:bold" class="text" id='str'>$Thanks for reaching out!</span>
+  <span style="font-size:25px; font-weight:bold" class="type-cursor">|</span>
 </div>
 
 <script type="text/javascript">
 
   var pos = 0;
   var speed = 250;
+  var clear_Speed = 350;
   var str = document.getElementById('str').innerText;
   
   //emplty the str from span
@@ -240,7 +240,7 @@
 		 setTimeout(type, speed);
 		 
 	 }else{
-	     setTimeout(erase, speed);
+	     setTimeout(erase, clear_Speed);
 	 }
   }
   
@@ -252,7 +252,7 @@
 		 document.getElementById('str').innerText = temp;
 		 pos--;
 		 console.log(pos);
-		 setTimeout(erase, speed);
+		 setTimeout(erase, clear_Speed);
 	  }else{
 	     setTimeout(type, speed);
 	  }
